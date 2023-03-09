@@ -5,11 +5,12 @@ import {P1, P2} from './pages'
 
 ReactDOM.render(
   <>
+    nyaa
     <HashRouter>
       <Routes>
-        <Route path="/react-router-test/" element={<P1/>} />
-        <Route path="/react-router-test/p1" element={<P1/>} />
-        <Route path="/react-router-test/p2" element={<P2/>} />
+        <Route path="/" element={<P1/>} />
+        <Route path="/p1" element={<P1/>} />
+        <Route path="/p2" element={<P2/>} />
       </Routes>
     </HashRouter>
   </>,

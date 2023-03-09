@@ -8,6 +8,7 @@
     "start": "webpack-dev-server"
   },
   "author": "",
+  "homepage": "https://slimemoss.github.io/react-router-test/",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.0",
