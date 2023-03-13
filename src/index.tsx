@@ -5,7 +5,6 @@ import {P1, P2} from './pages'
 
 ReactDOM.render(
   <>
-    nyaa
     <HashRouter>
       <Routes>
         <Route path="/" element={<P1/>} />
@@ -14,9 +13,9 @@ ReactDOM.render(
       </Routes>
     </HashRouter>
 
-    <a href="/react-router-test/#/">/</a>
-    <a href="/react-router-test/#/p1">/p1</a>
-    <a href="/react-router-test/#/p2">/p2</a>
+    <a href="./#/">/</a>
+    <a href="./#/p1">/p1</a>
+    <a href="./#/p2">/p2</a>
   </>,
   document.getElementById('app')
 )
