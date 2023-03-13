@@ -1,9 +1,13 @@
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { Route, Routes, HashRouter } from 'react-router-dom'
 import {P1, P2} from './pages'
 
-ReactDOM.render(
+const container = document.getElementById('app')
+if (!container) throw new Error('Failed to find the root element')
+const root = createRoot(container)
+
+root.render(
   <>
     <HashRouter>
       <Routes>
@@ -17,5 +21,4 @@ ReactDOM.render(
     <a href="./#/p1">/p1</a>
     <a href="./#/p2">/p2</a>
   </>,
-  document.getElementById('app')
 )
