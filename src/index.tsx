@@ -14,9 +14,9 @@ ReactDOM.render(
       </Routes>
     </HashRouter>
 
-    <a ref="/">---/</a>
-    <a ref="/p1">---p1</a>
-    <a ref="/p2">---p2</a>
+    <a href="/">---/</a>
+    <a href="/p1">---p1</a>
+    <a href="/p2">---p2</a>
   </>,
   document.getElementById('app')
 )
