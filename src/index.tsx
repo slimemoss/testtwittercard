@@ -13,6 +13,10 @@ ReactDOM.render(
         <Route path="/p2" element={<P2/>} />
       </Routes>
     </HashRouter>
+
+    <a ref="/">---/</a>
+    <a ref="/p1">---p1</a>
+    <a ref="/p2">---p2</a>
   </>,
   document.getElementById('app')
 )
