@@ -14,9 +14,9 @@ ReactDOM.render(
       </Routes>
     </HashRouter>
 
-    <a href={process.env.PUBLIC_URL + "/"}>/</a>
-    <a href={process.env.PUBLIC_URL + "/p1"}>p1/</a>
-    <a href={process.env.PUBLIC_URL + "/p2"}>p2/</a>
+    <a href="/react-router-test/#/">/</a>
+    <a href="/react-router-test/#/p1">/p1</a>
+    <a href="/react-router-test/#/p2">/p2</a>
   </>,
   document.getElementById('app')
 )
